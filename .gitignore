@@ -1,1 +1,28 @@
-*.env
+# Ambiente virtual
+.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Arquivos do Airflow
+airflow-docker/logs/
+airflow-docker/dags/__pycache__/
+airflow-docker/plugins/
+
+# Configurações locais
+.env
+*.db
+*.sqlite
+
+# Docker
+*.pid
+*.log
+*.sock
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
